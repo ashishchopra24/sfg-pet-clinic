@@ -35,6 +35,14 @@
                 <executable>C:\Program Files\Java\jdk1.8.0_201\bin\javac.exe</executable>
             </configuration>
 			</plugin>
+		<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
@@ -73,4 +81,9 @@
     <module>project-data</module>
     <module>project-web</module>
   </modules>
+  
+     <scm>
+        <developerConnection>scm:git:git@github.com:ashishchopra24/sfg-pet-clinic.git</developerConnection>
+  </scm>
+  
 </project>
