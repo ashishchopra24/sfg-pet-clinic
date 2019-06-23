@@ -5,10 +5,8 @@ import java.util.Set;
 import org.project.data.model.Owner;
 import org.project.data.model.Pet;
 
-public interface PetService {
+public interface PetService extends CrudService<Owner, Long> {
 
-	Pet findById(Long id);
-	Pet save(Pet pet);
-	Set<Pet> findAll();
+	
 
 }
