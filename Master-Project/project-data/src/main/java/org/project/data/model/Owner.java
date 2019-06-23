@@ -1,4 +1,4 @@
-package com.start.project.model;
+package org.project.data.model;
 
 public class Owner extends Person{
 
