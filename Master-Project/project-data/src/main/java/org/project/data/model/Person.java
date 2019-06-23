@@ -1,6 +1,6 @@
 package org.project.data.model;
 
-public class Person {
+public class Person extends BaseEntity{
 	
 	String firstName ;
 	String lastName ;

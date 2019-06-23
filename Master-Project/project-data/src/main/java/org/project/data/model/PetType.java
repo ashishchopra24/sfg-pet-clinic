@@ -1,6 +1,6 @@
 package org.project.data.model;
 
-public class PetType {
+public class PetType extends BaseEntity{
 	
 	String name;
 
